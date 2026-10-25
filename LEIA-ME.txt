@@ -1,0 +1,22 @@
+SITE GROWTH SALES (versão plana, tudo na mesma pasta)
+
+Esta versão tem o index.html e as imagens lado a lado, sem pastas. Foi feita para quem carrega os ficheiros pelo telemóvel.
+
+COMO PUBLICAR NO GITHUB PAGES
+1. Crie um repositório (ex.: growth-sales).
+2. Em "Add file" > "Upload files", escolha TODOS os ficheiros desta pasta ao mesmo tempo:
+   index.html, hero.jpg, impact.jpg, call.jpg, city.jpg, docs.jpg, portrait.jpg, mark.png
+3. Carregue em "Commit changes".
+4. Settings > Pages > Source: "Deploy from a branch" > branch main, pasta "/ (root)" > Save.
+5. Espere 1 a 2 minutos e abra https://SEU-UTILIZADOR.github.io/NOME-DO-REPOSITORIO/
+
+SE AS IMAGENS NÃO APARECEREM
+- Abra o repositório e confirme que as imagens estão na mesma lista que o index.html (não dentro de uma pasta).
+- Os nomes têm de ser exatamente estes, em minúsculas (o GitHub distingue maiúsculas de minúsculas).
+- Atualize a página com a cache limpa (ou abra num separador anónimo).
+
+FORMULÁRIO
+Por defeito, abre o WhatsApp ou o e-mail com a mensagem pronta. Para receber as inscrições direto no e-mail, crie um formulário grátis num serviço como o Formspree e cole o endereço em FORM_ENDPOINT, no fim do index.html.
+
+VÍDEO EM LOOP
+Coloque o vídeo (mp4, sem áudio, abaixo de 6 MB) com o nome hero.mp4 na mesma pasta e, no index.html, procure "VÍDEO EM LOOP" e retire os símbolos <!-- e -->.
